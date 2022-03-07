@@ -1,0 +1,118 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 15px;}
+
+  /* For mobile phones: */
+  @media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+    }
+body {
+    background-color:rgb(243, 245, 245);
+    width: 100%;
+    height: auto;
+    margin: auto;     
+    }
+    * {
+        box-sizing: border-box;
+      }
+      
+     
+ .menu4 ul {
+    list-style-type: none;
+    padding-left:2%;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(81, 87, 107);
+    width: 100%;
+    padding-top:10px;
+    padding-bottom: 10px;
+   }
+    li a {
+      float: right;
+        padding: 10px 10px;
+        text-align: center;
+        color:#6e8ebe;
+        text-decoration: none;
+        font-size: 10px;
+          }
+  
+li a:hover { 
+    background-color: lightgray;
+    color:rgb(209, 58, 12);
+           }
+.style {
+        float: left;
+        }
+           .banner4 {
+            float: left;
+            text-align:center;
+            display: block;
+            font-size: 15px;
+            color:rgb(66, 32, 202);
+            width: 100%;
+            margin-top: 28px;
+    
+        }
+        .h1 {
+            margin-top:15%;
+            margin-left:30px;
+            margin-bottom:6%;
+            padding-top:20px;
+            
+            border-bottom: 1px solid black;
+        }
+        h2 { color:rgb(216, 53, 80);
+        }
+        .content9 {
+            border:1px solid rgb(183, 183, 238);
+            padding-left: 40px;
+            background-color: rgb(241, 242, 247);
+        }
+        .content10 {
+            border: 1px solid rgb(250, 249, 245);
+            background-color:#f7f9fc;
+        }
+       
+        h3:hover {
+            color :red;
+          
+        }
+        .h21 {
+           
+            width: 20%;
+            margin-left: 2.5%;
+            background-color: rgb(253, 188, 188);
+        }
+        .h22 {
+           
+            width: 20%;
+            margin-left: 5%;
+            background-color: rgb(253, 188, 188);
+        }
+        .h23 {
+            
+            width: 20%;
+            margin-left: 5%;
+            background-color: rgb(253, 188, 188);
+        }
+        .h24 {
+           
+            width: 20%;
+            margin-left: 5%;
+            background-color: rgb(253, 188, 188);
+        }
+        .footer5 {
+            background-color: rgb(53, 54, 97);
+            padding-left:30px;
+            padding-top:10px;
+            padding-bottom:10px;
+            color:white;
+           
+          }
+                }

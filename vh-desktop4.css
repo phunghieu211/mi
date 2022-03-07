@@ -1,0 +1,130 @@
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  @media only screen and (min-width:992px) {
+  body {
+    height: auto;
+    margin: auto;
+    }
+    
+  .container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color:rgb(227, 223, 248);
+    font-family: 'Nunito Sans';
+    }
+    .menu3 ul {
+        list-style-type: none;
+        padding:15px 50px 15px 50px; 
+        margin: 0px;
+        overflow: hidden;
+        background-color: rgb(85, 107, 136);
+        width: 1200px;
+        
+     
+       }
+       li a  {float:right;
+        display:block;
+        padding: 14px 16px;
+        text-align: center;
+        color:#f7f9fc;
+        text-decoration: none;
+        font-size: 19px;
+      
+      }
+    
+     .style {
+       float:left;
+     }
+      
+     
+      li a:hover { 
+        background-color: lightgray;
+        color:rgb(209, 58, 12);
+               }
+      
+               
+                                   
+      /* For desktop: */
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+      
+      .banner3 { background:url(./anh/hoi-den-va.jpg);
+        width:100%;
+        height:600px;
+        background-size:cover;
+        position:relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 10px;
+      }
+      .content8{
+         display: none;
+      }
+      .content7 {
+        border: 1px solid rgb(33, 33, 43);
+        background-color: rgb(244, 244, 252);
+      }
+.h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.h3 {
+    background-color: rgb(173, 97, 97);
+    padding:10px;
+    
+}
+.h4 {
+    border-bottom:1px solid blue;
+}
+.pic {
+  width: 100%;
+}
+.pic12 {
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    display: block;
+}
+.pic13 {
+    width:100%;
+    height: auto;
+ 
+    display: block;
+}
+
+li {
+    font-size: 20px;
+}
+li:hover {
+   color: blue;
+}
+.footer4 {
+    background-color: rgb(53, 54, 97);
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+   
+  }
+      }
